@@ -28,17 +28,17 @@ h3{
 
 p{
   font-size: 18px;
-<<<<<<< HEAD
   color: #999;
-=======
-  color: #696565;
->>>>>>> master
   margin: 30px 0;
 }
 
 .header{
   background: #f2f2f2;
   padding: 48px 0 55px 0;
+}
+
+#aboutMe p {
+  color: #696565;
 }
 
 #aboutMe{
