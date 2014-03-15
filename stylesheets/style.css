@@ -112,3 +112,9 @@ img{
   height: auto;
   vertical-align: middle;
 }
+
+button a, button a:hover, button a:focus, button a:visited{
+  color: white;
+  text-decoration: none;
+  border-bottom: none;
+}
