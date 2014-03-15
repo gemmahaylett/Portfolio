@@ -1,0 +1,110 @@
+body{
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, button{
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-weight: 700;
+}
+
+h1, h5{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h2{
+  margin: 40px 0px 15px 0px
+}
+
+h3{
+  margin-bottom:30px;
+}
+
+.projects{
+  padding:100px 15px;
+}
+
+p{
+  font-size: 18px;
+  color: #999;
+  margin: 30px 0;
+}
+
+.header{
+  background: #f2f2f2;
+  padding: 48px 0 55px 0;
+}
+
+#aboutMe{
+  padding: 85px 0 85px 0;
+}
+
+#jottly{
+  background: #71bb98;
+}
+
+#paycrave{
+  background: #FF6353;
+}
+
+.project{
+  padding: 100px 15px;
+}
+
+#juvo{
+  background: #63bdbd;
+}
+
+.projects p{
+  color: white;
+}
+
+#contact{
+  padding: 90px 15px;
+}
+
+footer{
+  padding: 65px 0 90px 0;
+  background: #2b2b2b;
+}
+
+h6 a, a:hover{
+  text-decoration: none;
+  color: #666;
+  border-bottom: 1px dotted #666;
+}
+
+p a, p a:hover, p a:visited{
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px dotted white;
+}
+
+button, button:hover, button:active, button:focus{
+  border: none;
+  text-shadow:none;
+  background: none;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-space: 2px;
+  color: white;
+  padding: 15px 30px 15px;
+  border-radius: 2px;
+  text-aligh: center;
+  font-size: 15px;  
+  box-shadow: 0 4px 0 rgba(38,148,150,.8);
+  background-color: #63bdbd; // Old browsers
+}
+
+:focus{
+  outline: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
