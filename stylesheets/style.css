@@ -79,13 +79,13 @@ h6 a, a:hover{
   border-bottom: 1px dotted #666;
 }
 
-p a, p a:hover, p a:visited{
+p a, p a:hover, p a:visited {
   text-decoration: none;
   color: white;
   border-bottom: 1px dotted white;
 }
 
-button, button:hover, button:active, button:focus{
+.btn, .btn:hover, .btn:active, .btn:focus, .btn:visited{
   border: none;
   text-shadow:none;
   background: none;
@@ -100,6 +100,9 @@ button, button:hover, button:active, button:focus{
   font-size: 15px;  
   box-shadow: 0 4px 0 rgba(38,148,150,.8);
   background-color: #63bdbd; // Old browsers
+  color: white;
+  text-decoration: none;
+  border-bottom: none;
 }
 
 :focus{
@@ -110,10 +113,4 @@ img{
   max-width: 100%;
   height: auto;
   vertical-align: middle;
-}
-
-button a, button a:hover, button a:focus, button a:visited{
-  color: white;
-  text-decoration: none;
-  border-bottom: none;
 }
