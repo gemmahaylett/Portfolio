@@ -23,6 +23,10 @@ h1, h5{
   font-size: 15px;
 }
 
+.header img{
+  margin-top: -20px;
+}
+
 .jottly-dark{
   background-color: #519274;
 }
