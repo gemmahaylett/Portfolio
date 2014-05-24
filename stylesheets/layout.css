@@ -77,8 +77,12 @@
 				margin-top: 0px;
 		}
 
-		.info > .container{
+		#about > .container{
 			padding: 0px;
+		}
+
+		#about{
+			padding: 0px 0px 80px 0px;
 		}
 
 	}
