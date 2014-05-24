@@ -1,7 +1,46 @@
+/*
+Website Name: Gemma Haylett Portfolio
+Webiste URI: http://www.gemahaylett.com
+Author: Gemma Haylett
+Author URI: http://www.gemmahaylett.com
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  1.0 Reset
+/*-----------------------------------------------------------------------------------*/
+* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+figure { margin: 10% 0; }
+figcaption { text-align: center; }
+img { border: 0; -ms-interpolation-mode: bicubic;}
+a:hover, a:active, a:focus { outline: none; -moz-outline-style: none;}
+input {-webkit-border-radius:0; border-radius:0;}
+::-webkit-input-placeholder {color: #363636;}
+:-moz-placeholder {color: #363636;}
+::-moz-placeholder {color: #363636;}
+:-ms-input-placeholder {color: #363636;}
+
+/*-----------------------------------------------------------------------------------*/
+/*  2.0 General Styles
+/*-----------------------------------------------------------------------------------*/
 body{
+  margin: 0 auto;
+  background: #fff;
+  color: #363636;
   text-align: center;
   font-family: 'Didact Gothic', sans-serif;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
+
+/* --- Headings --- */
 
 h1, h2, h3, h4, h5, h6, button{
   font-family: 'Open Sans', sans-serif;
@@ -9,10 +48,62 @@ h1, h2, h3, h4, h5, h6, button{
   font-weight: 700;
 }
 
-h1, h5{
+h1, h4, h5{
   text-transform: uppercase;
   font-weight: 700;
 }
+
+h2, h3, h4{
+  margin-bottom:30px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+h4{
+  font-size: 25px;
+  text-align: left;
+}
+
+/* Text Elements */
+
+p{
+  font-size: 18px;
+  color: #999;
+  margin: 30px 0;
+}
+
+.projects p{
+  color: white;
+}
+
+ul{
+  float: right;
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+  padding: 0 20px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* Buttons */
 
 .btn-label{
   margin-top: 30px;
@@ -21,113 +112,6 @@ h1, h5{
   border-radius: 2px;
   color: white;
   font-size: 15px;
-}
-
-.header img{
-  margin-top: -20px;
-}
-
-.jottly-dark{
-  background-color: #519274;
-}
-
-.paycrave-dark{
-  background-color: #C24236;
-}
-
-.juvo-dark{
-  background-color: #207777;
-}
-
-.quickhello-dark{
-  background-color: #B1456D;
-}
-
-h1, .header , .header p{
-  text-align: left;
-}
-
-h5{
-  margin-bottom: 40px;
-}
-
-h3{
-  margin-bottom:30px;
-}
-
-h2{
-  margin-bottom: 20px;
-}
-
-.projects{
-  padding:100px 15px;
-}
-
-p{
-  font-size: 18px;
-  color: #999;
-  margin: 30px 0;
-}
-
-.header{
-  background: #ffffff;
-  padding: 48px 0 55px 0;
-}
-
-.aboutMe p {
-  color: #696565;
-}
-
-.aboutMe{
-  padding: 85px 0 85px 0;
-}
-
-.jottly{
-  background: #71bb98;
-}
-
-.paycrave{
-  background: #FF6353;
-}
-
-.project{
-  padding: 100px 15px;
-}
-
-.juvo{
-  background: #63bdbd;
-}
-
-.quickhello{
-  background: #e5729c;
-}
-
-.projects p{
-  color: white;
-}
-
-.contact{
-  padding-top: 50px;
-}
-
-.contact p{
-  margin-top: 10px;
-}
-
-.footer{
-  background: #2b2b2b;
-}
-
-h6 a, a:hover{
-  text-decoration: none;
-  color: #666;
-  border-bottom: 1px dotted #666;
-}
-
-p a, p a:hover, p a:visited {
-  text-decoration: none;
-  color: white;
-  border-bottom: 1px dotted white;
 }
 
 .btn, .btn:hover, .btn:active, .btn:focus, .btn:visited{
@@ -152,20 +136,122 @@ p a, p a:hover, p a:visited {
   margin-bottom: 50px;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*  3.0 Links + Colors
+/*-----------------------------------------------------------------------------------*/
+
+/* Links */
+
+a{
+  text-decoration: none;
+}
+
+p a, p a:hover, p a:visited {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+}
+
 :focus{
   outline: none;
 }
 
-img{
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+#about a{
+  color: #999;;
+  border-bottom: 1px dotted #999;;
 }
 
-.footer a:hover {
-  text-decoration: none;
-  border-bottom: none;
+/* Background Colors */
+
+
+
+.description{
+  background: #817A7A;
 }
+
+.webdesign{
+  background: #eee;
+}
+
+.artifacts{
+  background: #fff;
+}
+
+.mockup{
+  background: #ccc;
+}
+
+.fixed{
+  width: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.top-bar{
+  margin-top: 20px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  4.0 Homepage
+/*-----------------------------------------------------------------------------------*/
+
+.section{
+  padding:50px 0;
+}
+
+.about{
+  margin-bottom: 50px;
+}
+
+.projects{
+  padding:100px 0px;
+}
+
+#header{
+  padding: 30px 0;
+}
+
+#contact{
+  padding-top: 50px;
+}
+
+.jottly{
+  background: #71bb98;
+}
+
+.jottly-dark{
+  background-color: #519274;
+}
+
+.paycrave{
+  background: #FF6353;
+}
+
+.paycrave-dark{
+  background-color: #C24236;
+}
+
+.juvo{
+  background: #63bdbd;
+}
+
+.juvo-dark{
+  background-color: #207777;
+}
+
+.quickhello{
+  background: #e5729c;
+}
+
+.quickhello-dark{
+  background-color: #B1456D;
+}
+
+/* Social medial */
 
 i{
   color: #999;
@@ -176,4 +262,13 @@ i{
   margin-top: 50px;
   margin-bottom: 15px;
   display: block;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  5.0 Project Detail Pages
+/*-----------------------------------------------------------------------------------*/
+
+.description p, .description h3, .artifacts h3{
+  text-align: left;
+  color: #333;
 }

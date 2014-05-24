@@ -48,75 +48,86 @@
 	<!-- Primary Page Layout
 	================================================== -->
 
-	<!-- Delete everything in this .container and get started on your own site! -->
-
-	<div class="header">
-		<div class="container">
-			<div class="four columns header">
-				<div class="profile-pic">
-					<img src="images/profile_gemma.png"><img>
-				</div>
+	<div id="header">
+		<div class = "fixed">
+		<div class="container top-bar">	
+			<div class="four columns">
+				<h4>GEMMA HAYLETT</h4>
 			</div>
-			<div class="twelve columns header">
-				<h1>Gemma Haylett</h1>
-				<h5>Freelance web designer</h5>
-				<hr>
-				<p>I am web designer in the San Francisco Bay Area. I graduated from Cal Poly SLO with a degree in Computer Science. I love web design because it combines my two passions: coding and design. My web design style can be described as simple, modern and efficient.</p>
+			<div class="twelve columns offset-by-four">
+				<ul><li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li></ul>
 			</div>
 		</div>
+		</div>
 	</div>
-	<div class="jottly">
+	<div id="about" class="section">
 		<div class="container">	
-			<div class="seven columns projects jottly">
+			<div class="twelve columns offset-by-four">
+				<h2>About My Work</h2>
+				<p>I am web designer and Front-End developer. I use UX design methodology to create enjoyable experiences. I create simple, modern and efficient websites using HTML/CSS/SASS, JS, jQuery, git. <a href="GemmaHaylett_Resume.pdf">View my Resume (PDF).<a/></p>
+			</div>
+	</div>
+ </div>
+	<div id="portfolio" class="jottly projects">
+		<div class="container">	
+			<div class="nine columns">
 				<a href="http://gemmahaylett.github.io/Jottly-Landing-Page/" target="_blank"><img src="images/jottly.png"></a>
 			</div>
-			<div class="seven columns projects jottly">
+			<div class="seven columns">
 				<h2>Jott.ly</h2>
-				<h5><span class="btn-label jottly-dark">Web Design</span> <span class="btn-label jottly-dark"> Development</span> <span class="btn-label jottly-dark">Responsive Design</span></h5>
+				<h5><span class="btn-label jottly-dark">Web Design</span> <span class="btn-label jottly-dark">Development</span><br> <span class="btn-label jottly-dark">Responsive Design</span></h5>
 				<p>As part of my <a href="http://blog.bloc.io/2014/01/meet-gemma-one-of-blocs-first-design-apprentices/" target="_blank">Bloc Web Design apprenticeship</a>, I designed and developed a landing page for a fictious company called Jott.ly. I developed the logo, color palettes and content for this project. I also, coded the website using HTML and CSS.</p>
+        <p><a href="jottly.html">View Jott.ly Details</a></p>
 			</div>
 		</div>
 	</div>
-	<div class="paycrave">
+	<div class="paycrave projects">
 			<div class="container">			
-			<div class="seven columns projects paycrave">
-				<h2>Paycrave</h2>
-				<h5><span class="btn-label paycrave-dark">UI Design</span></h5>
-				<p>Designed a foodtruck mobile app called Paycrave. <a href="http://www.joeykirk.com" target="_blank">Joey Kirk</a> developed the branding, while I created the layout and UI design for the mockups. </p>
+			<div class="seven columns">
+				<div class="row">
+					<h2>Paycrave</h2>
+					<h5><span class="btn-label paycrave-dark">UX/UI Design</span></h5>
+					<p>Designed a foodtruck mobile app called Paycrave. <a href="http://www.joeykirk.com" target="_blank">Joey Kirk</a> developed the branding, while I created the layout and UI design for the mockups. </p>
+	            <p><a href="paycrave.html">View Paycrave Details</a></p>
+				</div>
 			</div>
-			<div class="seven columns projects paycrave">
+			<div class="nine columns">
 				<a href="http://marvl.in/72020" target="_blank"><img src="images/paycrave.png"></a>
 			</div>
 			</div>
 		</div>
 </div>
-<div class="juvo">
+<div class="juvo projects ">
 	<div class="container">
-		<div class="seven columns projects juvo">
+		<div class="nine columns">
 			<a href="http://gemmahaylett.github.io/JUVO/" target="_blank"><img src="images/juvo.png"></a>
 		</div>
-		<div class="seven columns projects juvo">
+		<div class="seven columns">
 			<h2>Juvo</h2>
 			<h5><span class="btn-label juvo-dark">Web Design</span> <span class="btn-label juvo-dark">Front-End Development</span></h5>
 			<p>Juvo is a fundraising web application. This web application was built during my Bloc Web Design apprenticeship. It was coded with Zurb Foundation, SASS, and Javascript.</p>
+         <p><a href="juvo.html">View Juvo Details</a></p>
 		</div>
 		</div>
 </div>
-<div class="quickhello">
+<div class="quickhello projects">
 	<div class="container">
-			<div class="seven columns projects quickhello">
+			<div class="seven columns">
+				<div class="row">
 				<h2>Quick Hello</h2>
 				<h5><span class="btn-label quickhello-dark">Web Design</span> <span class="btn-label quickhello-dark">Shopify</span></h5>
 				<p>Quick Hello is a Shopify ecommerce shop for selling printable paper goods. This shop was built using the starter theme <a href="http://shopify.github.io/Timber/" target="_blank">Timber</a>. I designed  the shop to learn the Shopify platform using greeting cards I designed in Illustrator.</p>
 			</div>
-			<div class="seven columns projects quickhello">
+			</div>
+			<div class="nine columns">
 				<a href="http://quick-hello.myshopify.com/" target="_blank"><img src="images/quickhello.png"></a>
 			</div>
 	</div>
 </div>
-<div class="contact">
+<div id="contact" class="contact">
 	<div class="container">
-		<div class="sixteen columns contact">
+		<div class="sixteen columns">
 			<h3>Let's work together! Contact me today!</h3>
 			<a class="btn" href="mailto:gemmahaylett@gmail.com">Email Me</a><br>
 			<hr>

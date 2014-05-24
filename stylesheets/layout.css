@@ -42,23 +42,45 @@
 			margin: 30px;
 		}
 
-		.header{
+		#header{
 			padding: 0;
-		}
-
-		.profile-pic{
-			width: 150px;
-			height: auto;
-			margin: 0px auto;
-		}
-
-		img{
-			margin-top: -20px;
 		}
 
 		h1, .header h5{
 			text-align: center;
 		}
+
+		.fixed{
+			width: 100%;
+		  left: 0;
+		  position: static;
+		  top: 0;
+		  z-index: 0;
+		  background-color: #fff;
+		}
+
+		li{
+			display: block;
+		}
+
+		h4{
+			text-align: center;
+			font-size: 35px;
+		}
+
+		ul{
+			float: none;
+			text-align: center;
+		}
+
+		.top-bar{
+				margin-top: 0px;
+		}
+
+		.info > .container{
+			padding: 0px;
+		}
+
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
