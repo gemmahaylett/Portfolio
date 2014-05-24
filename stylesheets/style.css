@@ -163,24 +163,6 @@ p a, p a:hover, p a:visited {
 
 /* Background Colors */
 
-
-
-.description{
-  background: #817A7A;
-}
-
-.webdesign{
-  background: #eee;
-}
-
-.artifacts{
-  background: #fff;
-}
-
-.mockup{
-  background: #ccc;
-}
-
 .fixed{
   width: 100%;
   left: 0;
@@ -271,4 +253,24 @@ i{
 .description p, .description h3, .artifacts h3{
   text-align: left;
   color: #333;
+}
+
+.mediumbackground{
+  background: #ccc;
+}
+
+.whitebackground{
+  background: #fff;
+}
+
+.darkbackground{
+  background: #B4ACAC;
+}
+
+.lightbackground{
+  background: #eee;
+}
+
+.detailimage{
+  margin-bottom: 20px;
 }
